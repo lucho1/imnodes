@@ -182,6 +182,7 @@ void            DestroyContext(ImNodesContext* ctx = NULL); // NULL = destroy cu
 ImNodesContext* GetCurrentContext();
 void            SetCurrentContext(ImNodesContext* ctx);
 
+ImNodesEditorContext* GetCurrentEditorContext();
 ImNodesEditorContext* EditorContextCreate();
 void                  EditorContextFree(ImNodesEditorContext*);
 void                  EditorContextSet(ImNodesEditorContext*);

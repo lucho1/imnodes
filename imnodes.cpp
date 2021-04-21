@@ -1665,6 +1665,7 @@ void EditorContextFree(ImNodesEditorContext* ctx)
 }
 
 void EditorContextSet(ImNodesEditorContext* ctx) { GImNodes->EditorCtx = ctx; }
+ImNodesEditorContext* GetCurrentEditorContext() { return GImNodes->EditorCtx; }
 
 ImVec2 EditorContextGetPanning()
 {
